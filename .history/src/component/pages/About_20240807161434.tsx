@@ -4,7 +4,7 @@ const About = () => {
   const [expand, setExpend] = useState(false);
 
   const aboutText =
-    "I am a proficient react developer, i specialize in developing user-friendly interface using React, JavaScript, Typescript, HTML, CSS and with a backend expertise using firebase for user authentication and firestore for user database. I am well-versed in modern react libraries, can build a responsive webpage that looks good across any screen size. My expertise extends to state managment libraries like redux toolkit, i have had the opportunity to work on a personal project like a clone amazon website and a personal online forum application";
+    "I am a proficient react developer, i specialize in developing user-friendly interface using React, JavaScript, Typescript, HTML, CSS and with a backend expertise using firebase for user authentication and firestore for user database. I am well-versed in modern react libraries. My expertise extends to state managment libraries like redux toolkit, i have had the opportunity to work on a personal project like a clone amazon website and a personal online forum application";
 
   const toggleExpand = () => {
     setExpend(!expand);
@@ -25,7 +25,7 @@ const About = () => {
             <span className="text-3xl font-bold">
               About <span className="text-[#fc5c06]">Me</span>
             </span>
-            <p>{expand ? aboutText : aboutText.slice(0, 162) + "......"}</p>
+            <p>{expand ? aboutText : aboutText.slice(0, 125) + ".."}</p>
             <div>
               <button
                 onClick={toggleExpand}

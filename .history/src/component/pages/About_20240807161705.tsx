@@ -25,7 +25,7 @@ const About = () => {
             <span className="text-3xl font-bold">
               About <span className="text-[#fc5c06]">Me</span>
             </span>
-            <p>{expand ? aboutText : aboutText.slice(0, 162) + "......"}</p>
+            <p>{expand ? aboutText : aboutText.slice(0, 162) + ".."}</p>
             <div>
               <button
                 onClick={toggleExpand}
