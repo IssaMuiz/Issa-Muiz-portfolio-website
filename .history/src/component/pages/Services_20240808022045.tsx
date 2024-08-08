@@ -11,7 +11,7 @@ const Services = () => {
           <p>
             Frontend <br /> Development
           </p>
-          <p className="text-[16px] font-normal p-2 leading-5 mt-6 ">
+          <p className="text-[15px] font-normal p-2 leading-5 mt-6 ">
             As a passionate front-end developer, I specialize in creating
             visually stunning and highly responsive websites. With a keen eye
             for desing and a strong foundation in modern web technologies, I

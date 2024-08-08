@@ -4,7 +4,7 @@ const About = () => {
   const [expand, setExpend] = useState(false);
 
   const aboutText =
-    "I am a proficient react developer, i specialize in developing user-friendly interface using React, JavaScript, Typescript, HTML, CSS and with a backend expertise using firebase for user authentication and firestore for user database. I am well-versed in modern react libraries, can build a responsive webpage that looks great across any screen size. My expertise extends to state managment libraries like redux toolkit, with a good experience with git and github. I have had the opportunity to work on a personal project like a clone amazon website and a personal online forum application";
+    "I am a proficient react developer, i specialize in developing user-friendly interface using React, JavaScript, Typescript, HTML, CSS and with a backend expertise using firebase for user authentication and firestore for user database. I am well-versed in modern react libraries, can build a responsive webpage that looks great across any screen size. My expertise extends to state managment libraries like redux toolkit, git and github. I have had the opportunity to work on a personal project like a clone amazon website and a personal online forum application";
 
   const toggleExpand = () => {
     setExpend(!expand);

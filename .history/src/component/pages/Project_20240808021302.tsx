@@ -36,12 +36,11 @@ const Project = () => {
             />
             <p className="mt-4">Project 2</p>
             <p className="text-white text-[16px] h-[200px] font-light leading-5 mt-2 p-2">
-              This is amazon-clone website, this project was developed as a
-              front-end application, this clone showcases my ability to build my
-              skills in building scalable e-commerce applications and
-              implementing features like user aunthentication with firebase and
-              real-time update of product added or remove from cart with prices,
-              using redux toolkit for the state management.
+              This project was developed as a front-end application, this clone
+              showcases my ability to build my skills in building scalable
+              e-commerce applications and implementing features like user
+              aunthentication with firebase and real-time of product added to
+              cart with price update using redux toolkit.
             </p>
             <a
               href="https://github.com/IssaMuiz/AmazonClone"
